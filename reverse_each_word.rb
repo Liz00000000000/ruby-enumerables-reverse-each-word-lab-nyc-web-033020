@@ -9,5 +9,5 @@ def reverse_each_word(string)
   reversed = [ ]
   str.each { |str| reversed << str.reverse}
 
-   p reversed
+   p reversed.join(' ')
 end
