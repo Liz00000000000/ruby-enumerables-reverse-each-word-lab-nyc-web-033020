@@ -7,7 +7,7 @@
 def reverse_each_word(string)
   str = string.split(' ')
   reversed = [ ]
-  str.each { |str| reversed << str.reverse + ' '}
+  str.each { |str| reversed << str.reverse}
 
-   reversed
+   p reversed
 end
